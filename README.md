@@ -72,7 +72,6 @@ count, average cost) plus region and project-type breakdowns.*
 ├── dashboard/
 │   └── smart_home_dashboard.pbix
 ├── assets/                  # generated charts + dashboard screenshot
-├── requirements.txt
 └── README.md
 ```
 
