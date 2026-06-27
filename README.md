@@ -62,16 +62,24 @@ count, average cost) plus region and project-type breakdowns.*
 
 ```
 .
+├── assets/                 # generated charts + dashboard screenshot
+│   ├──dashboard_preview.png
+│   ├──monthly_revenue_trend.png
+│   ├──project_type_split.png
+│   └──revenue_by_region.png
+├── dashboard/
+│   └── smart_home_dashboard.pbix
 ├── data/
-│   ├── raw/                 # original export
-│   └── processed/           # output of transform.py
+│   ├──  processed/           # output of transform.py
+│   │    └──projects_clean.csv
+│   └──raw/                 # original export
+│      └──raw_projects.csv
 ├── excel/                   # Excel-cleaned intermediate file
+│   └──smart_home_projects_with_calculations.csv
 ├── scripts/
 │   ├── transform.py         # date parsing + ProjectMonth enrichment
 │   └── analyze.py           # EDA, summary stats, chart generation
-├── dashboard/
-│   └── smart_home_dashboard.pbix
-├── assets/                  # generated charts + dashboard screenshot
+├── LICENSE
 └── README.md
 ```
 
