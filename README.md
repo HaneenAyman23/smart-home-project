@@ -93,4 +93,4 @@ explore the interactive dashboard.
 `Excel` · `Python (pandas, matplotlib)` · `Power BI`
 
 ---
-Built by [Your Name] — [LinkedIn] · [Portfolio]
+Built by Haneen Ayman
