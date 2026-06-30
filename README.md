@@ -63,6 +63,9 @@ count, average cost) plus region and project-type breakdowns.*
 ```
 .
 ├── assets/                 # generated charts + dashboard screenshot
+│   ├─Customer Insights.png
+│   ├─Monthly Trend.png
+│   ├─Project by Type.png
 │   ├──dashboard_preview.png
 │   ├──monthly_revenue_trend.png
 │   ├──project_type_split.png
